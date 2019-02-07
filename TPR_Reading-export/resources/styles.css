@@ -1,0 +1,200 @@
+.background {
+  viewport-fill: black;
+}
+#foreground {
+  x: 17%-1;
+  y: 10%;
+  fill: #525151;
+  opacity: 0;
+}
+#hundreds_ceil {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 17%-1;
+  y: 10%;
+  fill: #525151;
+}
+#hundreds_top {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 17%;
+  y: 20%+25;
+  fill: #B6B6B6;
+}
+#hundreds {
+  font-size: 80;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 18%;
+  y: 50%+25;
+  fill: white;
+}
+#hundreds_bot {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 17%;
+  y: 80%;
+  fill: #B6B6B6;
+}
+#hundreds_base {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 17%-1;
+  y: 90%+10;
+  fill: #525151;
+}
+
+#tens_ceil {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 50%;
+  y: 10%;
+  fill: #525151;
+}
+#tens_top {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 50%;
+  y: 20%+25;
+  fill: #B6B6B6;
+}
+#tens {
+  font-size: 80;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+25;
+  fill: white;
+}
+#tens_bot {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 50%;
+  y: 80%;
+  fill: #B6B6B6;
+}
+#tens_base {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 50%;
+  y: 90%+10;
+  fill: #525151;
+}
+
+
+
+
+
+
+#ones_ceil {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 83%;
+  y: 10%;
+  fill: #525151;
+}
+#ones_top {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 83%;
+  y: 20%+25;
+  fill: #B6B6B6;
+}
+#ones {
+  font-size: 80;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 83%;
+  y: 50%+25;
+  fill: white;
+}
+#ones_bot {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 83%;
+  y: 80%;
+  fill: #B6B6B6;
+}
+#ones_base {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 83%;
+  y: 90%+10;
+  fill: #525151;
+}
+
+
+
+
+#tenths_ceil {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 262;
+  y: 10%;
+  fill: #525151;
+}
+#tenths_top {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 262;
+  y: 20%+25;
+  fill: #B6B6B6;
+}
+#tenths {
+  font-size: 80;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 262;
+  y: 50%+25;
+  fill: white;
+}
+#tenths_bot {
+  font-size: 45;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 262;
+  y: 80%;
+  fill: #B6B6B6;
+}
+#tenths_base {
+  font-size: 20;
+  font-family: Fabrikat-Black;
+  text-length: 1;
+  text-anchor: middle;
+  x: 262;
+  y: 90%+10;
+  fill: #525151;
+}

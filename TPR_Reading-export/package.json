@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "7a9d05b2-5f74-4506-a51b-98ab0b69e06d",
+    "appType": "app",
+    "appDisplayName": "TPR_Reading",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "TPR_Reading"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

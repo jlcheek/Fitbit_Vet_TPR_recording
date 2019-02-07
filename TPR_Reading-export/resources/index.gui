@@ -1,0 +1,64 @@
+<svg class="background">
+  <rect id="background" pointer-events="visible" x="0" y="0" width="100%" height="100%" fill="black" />
+  
+  <text id="hundreds_ceil">3</text>
+  <text id="hundreds_top">2</text>
+  <text id="hundreds">1</text>
+  <text id="hundreds_bot">0</text>
+  <text id="hundreds_base">9</text>
+  
+  <text id="tens_ceil">3</text>
+  <text id="tens_top">2</text>
+  <text id="tens">1</text>
+  <text id="tens_bot">0</text>
+  <text id="tens_base">9</text>
+  
+  <text id="ones_ceil">3</text>
+  <text id="ones_top">2</text>
+  <text id="ones">1</text>
+  <text id="ones_bot">0</text>
+  <text id="ones_base">9</text> 
+  
+  <text id="tenths_ceil">3</text>
+  <text id="tenths_top">2</text>
+  <text id="tenths">1</text>
+  <text id="tenths_bot">0</text>
+  <text id="tenths_base">9</text> 
+  
+  <rect id="foreground" pointer-events="visible" x="0" y="0" width="100%" height="100%"/>
+  
+  <rect id="rect1" x="33%"   y="25%" width="1" height="50%" fill="white" />
+  <rect id="rect2" x="66%"   y="25%" width="1" height="50%" fill="white" />
+  <rect id="rect3" x="75%"   y="25%" width="1" height="50%" fill="white" display="none"/>
+  <rect id="dec_shade" x="75%"   y="50%" width="1" height="40" fill="black" />
+  <circle id="decimal" cx="75%" cy="50%+20" r="5" fill="white" />
+  
+  <use id="back" href="#push-button" y="0" height="40"
+    width="40" fill="fb-black" font-family="Colfax-Black" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="<" />
+    <set href="#text" attributeName="fill" to="fb-white" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+  
+  <use id="T" href="#push-button" y="0" height="100"
+    fill="fb-yellow" font-family="Colfax-Black" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="T" />
+    <set href="#text" attributeName="text-length" to="15" />
+    <set href="#text" attributeName="fill" to="fb-orange" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+  <use id="P" href="#push-button" y="100" height="100"
+    fill="fb-red" font-family="Colfax-Black" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="P" />
+    <set href="#text" attributeName="text-length" to="15" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+  <use id="R" href="#push-button" y="200" height="100"
+    fill="fb-pink" font-family="Colfax-Black" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="R" />
+    <set href="#text" attributeName="text-length" to="15" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+</svg>
